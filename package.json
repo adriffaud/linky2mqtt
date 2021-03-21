@@ -1,0 +1,14 @@
+{
+  "name": "linky2mqtt",
+  "version": "1.0.0",
+  "description": "A script to send Linky electricity consumption into a MQTT broker for Home Assistant integration.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Adrien Driffaud <adrien@driffaud.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.19.0",
+    "linky": "^1.1.0",
+    "mqtt": "^4.2.6"
+  }
+}
